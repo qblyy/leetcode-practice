@@ -95,8 +95,8 @@ public class Solution {
 	}
 	
 	public static void main(String[] args) {
-		int[] candidates = new int[] { 2, 3, 6, 7 };
-		int target = 7;
+		int[] candidates = new int[] { 1, 2, 3, 6, 7 };
+		int target = 8;
 		Solution test = new Solution();
 		ArrayList<ArrayList<Integer>> list = test.combinationSum(candidates,
 				target);

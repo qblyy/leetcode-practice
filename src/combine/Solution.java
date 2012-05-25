@@ -38,7 +38,7 @@ public class Solution {
     
     public static void main(String[] args) {
 		int n = 13;
-		int k = 13;
+		int k = 1;
 		Solution test = new Solution();
 		ArrayList<ArrayList<Integer>> result = test.combine(n, k);
 		for(ArrayList<Integer> al: result) {

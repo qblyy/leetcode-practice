@@ -5,7 +5,7 @@ public class Solution {
     public ArrayList<String> anagrams(String[] strs) {
         // Start typing your Java solution below
         // DO NOT write main() function
-        ArrayList result = new ArrayList<String>();
+        ArrayList<String> result = new ArrayList<String>();
         Map<String, List<Integer>> memo = new HashMap<String, List<Integer>>();
         for (int i = 0; i < strs.length; i++) {
             char[] arr = strs[i].toCharArray();
