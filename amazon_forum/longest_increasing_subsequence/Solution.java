@@ -1,4 +1,4 @@
-package longest_palindrome_substring;
+package longest_increasing_subsequence;
 
 import java.util.List;
 import java.util.ArrayList;
